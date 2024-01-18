@@ -1,0 +1,39 @@
+/* Margin define espaçamento entre elementos HTML, ou seja, uma margin sobrepõe a outra */
+
+/* uma padding é um espaçamento interno de um elemento HTML, logo uma margin nunca irá sobrepor a outra diferente da margin.
+Uma declaração de Margin e Padding seguem a mesma fiorma como demonstrado abaixo */
+
+/* 
+margin-top: 30px;
+margin-bottom: 30px;
+margin-left: 30px;
+margin-right: 30px; */
+
+/* desta forma ele seta os valores em sentido horário sendo top> Right> Bottom> left
+margin: 30px 15px 30px 15px; */
+
+/* Border criar uma borda ao redor do elemento, ele tem 3 elementos, largura "width", estilo "style" e cor "color", todas podem ser dadas separadamente ou todas em apenas uma linha como demonstrado no código */
+
+/* os elementos de espaçamento seguem uma hierarquia sendo de dentro para fora:
+padding: elemento interno, usado mais para dar um espaçamento interno do elemento.
+border: outro espaçamento interno, mas este é mais usado para se aplicar estilo.
+margin: Este é um espaçamento entre elementos, logo um se sobrepõe a outro. */
+
+p {
+    margin: 30px 15px;
+
+    padding: 20px;
+
+    background-color: aquamarine;
+
+    border: 20px dashed red;
+}
+
+h1 {
+    padding: 100px;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 50px;
+    border-width: 20px;
+    border-style: solid double dashed dotted;
+    border-color: blue burlywood darkmagenta darkgreen
+}
